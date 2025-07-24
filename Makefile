@@ -4,7 +4,7 @@ setup:
 	python -m pip install -r requirements.txt
 run:
 	call .venv\Scripts\activate.bat
-	python -m otus_hw_async\crawler.py
+	python -m src.otus_hw_async.crawler
 lint:
 	python -m ruff check src
 format:
