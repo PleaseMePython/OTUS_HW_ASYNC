@@ -1,0 +1,5 @@
+ruff
+aiohttp
+aiofiles
+beautifulsoup4
+lxml
